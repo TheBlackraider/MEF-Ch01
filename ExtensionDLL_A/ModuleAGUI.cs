@@ -45,7 +45,12 @@ namespace ExtensionDLL_A
 
         private void ModuleAGUI_FormClosing(object sender, FormClosingEventArgs e)
         {
-            this.OnCloseModule(sender);    
+            onClose closeModule = OnCloseModule;
+
+            if (closeModule != null)
+            {
+                closeModule(sender);
+            }
         }
 
         
