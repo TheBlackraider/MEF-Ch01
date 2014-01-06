@@ -16,6 +16,8 @@ namespace ExtensionDLL_A
     [Export("ModuleAGUI", typeof(IGUIModule))]
     public partial class ModuleAGUI : Form, IGUIModule
     {
+        public event onClose OnCloseModule;
+
         public ModuleAGUI()
         {
             InitializeComponent();
@@ -41,5 +43,11 @@ namespace ExtensionDLL_A
             return "Module Ext. A ejecutado";
         }
 
+        private void ModuleAGUI_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.OnCloseModule(sender);    
+        }
+
+        
     }
 }

@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(656, 261);
             this.Name = "ModuleAGUI";
             this.Text = "ModuleAGUI";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ModuleAGUI_FormClosing);
             this.ResumeLayout(false);
 
         }

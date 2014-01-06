@@ -24,11 +24,11 @@ namespace MEFClient
         }
 
 
-        private void OnCloseHandler(object sender)
+        private void OnCloseModuleHandler(object sender)
         {
-            Form s = (Form)sender;
+            ExtensibilityInterfaces.IGUIModule s = (ExtensibilityInterfaces.IGUIModule)sender;
 
-            MessageBox.Show("Form " + s.Text + " cerrado");
+            MessageBox.Show("Form " + s.GetMenuCaption() + " cerrado");
         }
 
         private void MenuItemClickHandler(object sender, EventArgs e)

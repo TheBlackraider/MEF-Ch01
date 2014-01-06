@@ -16,6 +16,8 @@ namespace ExtensionDLL_B
     [Export("ModuleBGUI", typeof(IGUIModule))]
     public partial class ModuleBGUI : Form, IGUIModule
     {
+        public event onClose OnCloseModule;
+
         public ModuleBGUI()
         {
             InitializeComponent();

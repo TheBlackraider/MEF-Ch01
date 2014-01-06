@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace ExtensibilityInterfaces
 {
    
+    public delegate void onClose(object sender);
 
     public interface IGUIModule
     {
@@ -15,6 +16,6 @@ namespace ExtensibilityInterfaces
         object GetMenuImage();
         string GetTooltip();
 
-       
+        event onClose OnCloseModule;   
     }
 }
