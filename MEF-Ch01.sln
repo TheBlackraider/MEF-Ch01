@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEF-Client", "WindowsFormsApplication1\MEF-Client.csproj", "{9E654299-212C-48AF-A299-4AC35804538D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensibilityInterfaces", "ExtensibilityInterfaces\ExtensibilityInterfaces.csproj", "{59ED0934-4F40-47CB-8EFA-043C773DBE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionDLL_A", "ExtensionDLL_A\ExtensionDLL_A.csproj", "{62252A36-E08F-49A0-822C-62B3D5E72B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionDLL_B", "ExtensionDLL_B\ExtensionDLL_B.csproj", "{B0F4B2ED-16CD-4A72-9FC7-267BEA21D877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E654299-212C-48AF-A299-4AC35804538D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E654299-212C-48AF-A299-4AC35804538D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E654299-212C-48AF-A299-4AC35804538D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E654299-212C-48AF-A299-4AC35804538D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ED0934-4F40-47CB-8EFA-043C773DBE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ED0934-4F40-47CB-8EFA-043C773DBE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ED0934-4F40-47CB-8EFA-043C773DBE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ED0934-4F40-47CB-8EFA-043C773DBE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62252A36-E08F-49A0-822C-62B3D5E72B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62252A36-E08F-49A0-822C-62B3D5E72B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62252A36-E08F-49A0-822C-62B3D5E72B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62252A36-E08F-49A0-822C-62B3D5E72B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F4B2ED-16CD-4A72-9FC7-267BEA21D877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F4B2ED-16CD-4A72-9FC7-267BEA21D877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F4B2ED-16CD-4A72-9FC7-267BEA21D877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F4B2ED-16CD-4A72-9FC7-267BEA21D877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
